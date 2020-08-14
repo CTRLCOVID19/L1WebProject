@@ -1,0 +1,54 @@
+html {
+    background-image: url('images/bg.jpg');
+    background-size: 100vw 100vh;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: auto;
+}
+
+nav {
+    grid-column: 1/4;
+    background-color: black;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0px 5%;
+    padding:20px 0px;
+    font font-size: 40px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+section {
+    grid-column: 2/3;
+    background-color: rgba(0,0,0,0.5);
+    height: 300px;
+}
+
+h1 {
+  color: #f6270c;
+}
+
+h2 {
+  color: green; 
+}
+p {
+ color:red;
+}
+
+label, #text, button {
+    color: red;
+    margin: 10px;
+}
